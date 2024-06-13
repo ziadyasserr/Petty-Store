@@ -1,0 +1,119 @@
+.containerr {
+    min-height: 50vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f2d70a;
+}
+
+.containerrr {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    background-image: url("https://pettie.wpengine.com/wp-content/uploads/2023/05/Breadcrumb-img.png");
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 50vh;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.containerrr h1 {
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.containerrr p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.containerrrr {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom: -90px;
+    background: #ffffff;
+    -webkit-mask-image: url("https://pettie.wpengine.com/wp-content/themes/petty/modules/breadcrumb/assets/image/Home-2-Banner-Bg.png");
+    -webkit-mask-size: contain;
+    clear: both;
+}
+
+
+/* start form */
+
+.borderr {
+    border-radius: 50px;
+    background-color: #FFE9ED;
+    min-height: 85vh;
+    max-width: 60%;
+    padding-left: 20px;
+}
+
+@media (max-width:676px) {
+    .borderr {
+        min-height: 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+.border-form {
+    border: none;
+    border-bottom: #FFFFE8 2px solid;
+    padding: 20px;
+}
+
+.main-btn {
+    background-color: #ff6b35;
+    color: whie;
+    padding: .5rem 1rem;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.main-btn:hover {
+    color: white;
+    background-color: black;
+}
+
+.border-form:focus {
+    outline: none;
+}
+
+
+/* end form */
+
+.bg-container {
+    border-radius: 150px;
+    background-color: black;
+    width: 70%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text-map {
+    color: #f2d70a;
+}
+
+.text-offer {
+    color: white;
+    margin-left: 20px;
+}
+
+.offer {
+    color: #f2d70a;
+    line-height: 3;
+}
+
+.offerr {
+    background-color: #FF6B35;
+    border-radius: 50px;
+}
